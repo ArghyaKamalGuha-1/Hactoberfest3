@@ -43,6 +43,7 @@ void Compute_Engine_Cost()
 char EnginePrice;
 
 cout << "S - 6 cylinder engine"
+<< "A - 4 cylinder engine"
 << "E - 8 cylinder engine"
 << "D - Diesel engine"
 << "What is your selection? ";
@@ -53,6 +54,7 @@ cin >> EnginePrice;
 switch (EngineCost)
 {
 case 'S': EngineCost= 150 ; break;
+case 'A': EngineCost= 150 ;break;
 case 'E': EngineCost= 475 ; break;
 case 'D': EngineCost= 750 ; break;
 }
